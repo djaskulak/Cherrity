@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+     <!--====== Required meta tags ======-->
+     <meta charset="utf-8">
+     <meta http-equiv="x-ua-compatible" content="ie=edge">
+     <meta name="description" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     
+     <!--====== Title ======-->
+     <title>{% block title %} {% endblock %}</title>
+     
+     
+    <body>
+        {% block content %}
+        <p>This will appear if you don't set a block in the inheriting template.</p>
+        {% endblock %}
+    </body>
+</html> 

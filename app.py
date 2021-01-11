@@ -2,7 +2,7 @@ import jinja2
 from flask import Flask, request, redirect, render_template, url_for
 
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder="templates")
 
 @app.route('/')
 def page():

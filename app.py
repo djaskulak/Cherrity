@@ -7,32 +7,32 @@ app = Flask(__name__)
 @app.route('/')
 def page():
     """Display the web page."""
-    return render_template('/index.html')
+    return render_template('index.html')
 
 @app.route('/base')
 def base():
     """basehtml"""
-    return render_template('/base.html')
+    return render_template('base.html')
 
 @app.route('/charities')
 def charity():
     """charities page"""
-    return render_template('/charities.html')
+    return render_template('charities.html')
 
 @app.route('/resources')
 def resources():
     """resources page"""
-    return render_template('/resources.html')
+    return render_template('resources.html')
 
 @app.route('/blog')
 def blog():
     """blog page"""
-    return render_template('/blog.html')
+    return render_template('blog.html')
 
 @app.route('/cart')
 def cart():
     """cart html"""
-    return render_template('/cart.html')
+    return render_template('cart.html')
 
 
 

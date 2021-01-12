@@ -65,7 +65,7 @@
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg">
                         <a class="navbar-brand" href="index.html">
-                            <img src="assets/images/logo.png" alt="Logo">
+                            <img src="static/assets/images/full_logo.jpg" alt="Logo">
                         </a> <!-- Logo -->
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="bar-icon"></span>
@@ -76,7 +76,7 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul id="nav" class="navbar-nav ml-auto">
                                 <li class="nav-item">
-                                    <a data-scroll-nav="0" href="#home">Home</a>
+                                    <a data-scroll-nav="0" href="/">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a data-scroll-nav="0" href="charities">Charities</a>
@@ -102,11 +102,11 @@
     </header>
     
     <!--====== HEADER PART ENDS ======-->
-
+<br>
 
 <!--Section: Block Content-->
 <section id="cart">
-
+<br>
     <!--Grid row-->
     <div class="row">
   
@@ -117,17 +117,16 @@
         <div class="m-3">
           <div class="pt-4 wish-list">
   
-            <h5 class="mb-4">Cart (<span>2</span> items)</h5>
+            <h5 class="mb-4 mt-5 pt-5">Cart (<span>2</span> items)</h5>
   
-            <div class="row mb-4">
+            <div class="row mb-4 mt-4">
               <div class="col-md-5 col-lg-3 col-xl-3">
                 <div class="view zoom overlay z-depth-1 rounded mb-3 mb-md-0">
                   <img class="img-fluid w-100"
                     src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/12a.jpg" alt="Sample">
                   <a href="#!">
                     <div class="mask">
-                      <img class="img-fluid w-100"
-                        src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/12.jpg">
+                      
                       <div class="mask rgba-black-slight"></div>
                     </div>
                   </a>
@@ -144,15 +143,12 @@
                     </div>
                     <div>
                       <div class="def-number-input number-input safari_only mb-0 w-100">
-                        <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
-                          class="minus decrease"></button>
+                        <button type="number" id="itemAqty"></button>
                         <input class="quantity" min="0" name="quantity" value="1" type="number">
                         <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
-                          class="plus increase"></button>
+                          class="plus"></button>
                       </div>
-                      <small id="passwordHelpBlock" class="form-text text-muted text-center">
-                        (Note, 1 piece)
-                      </small>
+                    
                     </div>
                   </div>
                   <div class="d-flex justify-content-between align-items-center">
@@ -175,8 +171,7 @@
                     src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13a.jpg" alt="Sample">
                   <a href="#!">
                     <div class="mask">
-                      <img class="img-fluid w-100"
-                        src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13.jpg">
+                    
                       <div class="mask rgba-black-slight"></div>
                     </div>
                   </a>
@@ -278,7 +273,7 @@
                 <div>
                   <strong>The total amount of</strong>
                   <strong>
-                    <p class="mb-0">(including VAT)</p>
+                    <p class="mb-0">(including tax)</p>
                   </strong>
                 </div>
                 <span><strong>$53.98</strong></span>
@@ -371,8 +366,8 @@
                                   <div class="single-footer-info mt-20">
                                       <span>Phone :</span>
                                       <div class="footer-info-content">
-                                          <p>+88123 4567 890</p>
-                                          <p>+88123 4567 890</p>
+                                          <p>+1 867-5309</p>
+                                          <p>+1 867-5309</p>
                                       </div>
                                   </div> <!-- single footer info -->
                               </li>
@@ -380,8 +375,8 @@
                                   <div class="single-footer-info mt-20">
                                       <span>Email :</span>
                                       <div class="footer-info-content">
-                                          <p>contact@yourmail.com</p>
-                                          <p>support@yourmail.com</p>
+                                          <p>contact@cherrity.com</p>
+                                          <p>support@ycherrity.com</p>
                                       </div>
                                   </div> <!-- single footer info -->
                               </li>
@@ -402,7 +397,7 @@
               <div class="row">
                   <div class="col-lg-12">
                       <div class="copyright text-center">
-                          <p>Crafted by <a href="https://uideck.com" rel="nofollow">UIdeck</a></p>
+                          <p>Crafted by Danika and Brian</p>
                       </div> <!-- copyright -->
                   </div>
               </div> <!-- row -->
@@ -447,8 +442,8 @@
   <!--====== nav js ======-->
   <script src="static/assets/js/jquery.nav.js"></script>
   
-  <!--====== Nice Number js ======-->
-  <script src="static/assets/js/jquery.nice-number.min.js"></script>
+  <!-- ====== Nice Number js ======
+  <script src="static/assets/js/jquery.nice-number.min.js"></script> -->
   
   <!--====== Main js ======-->
   <script src="static/assets/js/main.js"></script>
